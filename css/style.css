@@ -1,0 +1,233 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: avenir-lt-w01_35-light1475496, sans-serif;
+	color: #42484f;
+}
+
+.nav {
+	width: 100%;
+	list-style: none;
+	display: inline-block;
+	color: red;
+	padding: 5px 0px 5px 0px;
+	text-align: center;
+}
+
+.nav > li {
+	display: inline-block;
+	padding-right: 30px;
+	float: left;
+}
+
+.nav > li > a {
+	text-decoration: none;
+	color: #42484f;
+}
+
+.nav > li > a:hover {
+	color: #d0ffbf;
+}
+
+.title-name {
+	margin-top: 50px;
+	font-size: 60px;
+	letter-spacing: 10px;
+}
+
+.motto {
+	margin-bottom: 50px;
+	font-size: 20px;
+	letter-spacing: 10px;
+	color: #525b66;
+}
+
+h1 {
+	text-align: center;
+	color: #42484f;
+}
+
+h2 {
+	font-weight: 20;
+	color: #42484f;
+}
+
+h3 {
+	text-align: center;
+	color: #42484f;
+}
+
+.section-break {
+	border-bottom: 1px solid #e5e5e5;
+	width: 100%;
+}
+
+.sticky {
+	background-color: white;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.about {
+	width: 100%;
+	height: 600px;
+	background-image: url(http://nunezcommunications.com/wp-content/uploads/2016/04/laptop-1280536.jpg);
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 20px
+}
+
+.big-name {
+	float: right;
+	color: white;
+	text-align: center;
+	max-width: 400px;
+}
+
+.about-context {
+	float: right;
+	color: white;
+	text-align: center;
+	max-width: 400px;
+	font-size: 16px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(5, 3fr);
+	  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 35px;
+}
+
+.one {
+  grid-column:  4;
+  grid-row: 2;
+}
+.two { 
+  grid-column: 4;
+  grid-row: 3;
+}
+
+.portfolio-title {
+	text-align: center;
+	font-size: 40px;
+}
+
+.thumbnail-pic {
+	margin: 20px auto;
+	max-width: 600px;
+	@media (min-width: 1023px) {
+		max-width: 420px;
+	}
+	display: inline-block;
+	border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 7px;
+	margin: 20px;
+}
+
+.thumbnail {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.thumbnail img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  width: auto;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
+
+
+
+form {
+	max-width: 800px;
+	margin: 0 auto 50px;
+	padding-bottom: 20px;
+}
+
+form > label {
+	display: block;
+	margin-bottom: 5px;
+	+box-sizing(border)
+}
+
+form > label > input,textarea {
+	border: 1px solid #42484f;
+	width: 100%;
+	+box-sizing(border);
+	padding: 10px;
+	margin-top: 2px;
+}
+form > label > input:focus,textarea:focus {
+		outline: none;
+		border-color: black;
+	}
+
+form > label > textarea {
+	height: 10em;
+}
+
+.contact-intro {
+	color: #42484f;
+	margin-bottom: 20px;
+}
+
+.submit-wrap {
+	text-align: right;
+}
+
+.send-button {
+	  background-color: #42484f;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+		font-family: avenir-lt-w01_35-light1475496, sans-serif;
+		border-radius: 0px;
+}
+
+.contact-social-group > a {
+	display: inline-block;
+	float: left;
+	padding-right: 25px;
+	margin-top: 20px;
+	color: #42484f;
+}
+
+.contact-social-group > a:hover {
+	color: #d0ffbf;
+}
+
+.contact-info {
+	text-decoration: none;
+	color: #42484f;
+}
+
+.contact-info:hover {
+		color: #d0ffbf;
+}
+
+.author {
+	font-size: 20px;
+	color: #42484f;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.copy-right {
+	font-size: 12px;
+	color: #42484f;
+	margin-bottom: 50px;
+	text-align: center;
+}
